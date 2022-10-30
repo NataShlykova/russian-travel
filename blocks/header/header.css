@@ -1,0 +1,33 @@
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    padding-left: 48px;
+    /*padding-top: 28px;*/
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1152px) {
+    .header {
+      max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 288px;
+        max-height: 42px;
+    }
+}
