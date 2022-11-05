@@ -1,43 +1,31 @@
 .places {
     max-width: 984px;
-   /* min-height: 3392px;*/
-    /*margin-left: 72px;
-    margin-right: 224px;
-    margin-bottom: 124px;
-    display: flex;
-    flex-direction: column;*/
+    padding-bottom: 92px;
     margin-left: 72px;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 124px;
 }
-
-
 
 @media screen and (max-width: 1152px) {
     .places {
+        max-width: 90.6%;
         margin-left: 48px;
-        margin-right: 48px;
-        margin-bottom: 92px;
     }
     
 }
 
 @media screen and (max-width: 896px) {
     .places {
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-bottom: 90px;
+       max-width: 93.7%;
+       padding-bottom: 88px;
+       margin-left: 24px;
     }
     
 }
 
-
 @media screen and (max-width: 540px) {
     .places {
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 66px;
+       max-width: 100%;
+       padding-bottom: 64px;
+       margin-left: 0px;
     }
     
 }

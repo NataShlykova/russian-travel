@@ -9,9 +9,10 @@
 
 @media screen and (max-width: 540px) {
     .cover__title {
-        max-width: 288px;
+        max-width: 255px;
         font-size: 32px;
         line-height: 35px;
+        margin: 0 0 8px;
     }
 
 }

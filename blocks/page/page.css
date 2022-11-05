@@ -1,21 +1,13 @@
 .page {
   margin: 0 auto;
-  padding: 28px 0 24px;
   background-color: #2A2C2F;
-  font-family:'Inter';
+  font-family:'Inter', Arial, sans-serif;
   color: #fff;
   font-weight: 400;
   min-width: 320px;
   max-width: 1280px;
   min-height: 100vh;
-  /*display: flex;
-  flex-direction: column;*/
   width: 100%;
-}
-
-@media screen and (max-width: 540px){
-    .page {
-        padding: 16px 0 24px;  
-    }
-    
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }

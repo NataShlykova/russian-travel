@@ -9,7 +9,6 @@
     
 }
 
-
 @media screen and (max-width: 540px) {
     .content__section {
         margin-bottom: 64px;
@@ -17,4 +16,3 @@
     
 }
 
-/*Нужно разобраться с предпоследней секцией, по макету везде другой отступ*/

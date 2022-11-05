@@ -1,16 +1,9 @@
 .cover {
-    /*max-width: 1184px;
-    min-width: 740px;*/
     margin: 0 48px;
-   /* background-image: url(../../images/cover-trains.jpg);*/
-    font-family: 'Inter';
-
-
 }
 
 @media screen and (max-width: 1152px) {
-    .cover {
+    .cover{
         margin: 0;
     }
-    
 }

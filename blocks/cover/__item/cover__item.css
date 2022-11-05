@@ -13,6 +13,7 @@
     background-size: cover;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 .cover__item::before {

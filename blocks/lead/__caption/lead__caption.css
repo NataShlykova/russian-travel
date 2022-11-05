@@ -1,24 +1,17 @@
 .lead__caption {
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    min-width: 158px;
-    min-height: 14px;
-    font-family: 'Inter';
+    margin-top: 8px 0 0;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 896px) {
     .lead__caption {
-        margin-left: 24px;
-        /*margin-right: 586px;*/
-        /*min-width: 158px;*/
-       min-height: 14px;
+        margin-left: 24px;      
     }
     
 }
@@ -26,8 +19,6 @@
 @media screen and (max-width: 540px) {
     .lead__caption {
         margin-left: 16px;
-        /*margin-right: 146px;*/
-    
     }
     
 }

@@ -6,9 +6,6 @@
     line-height: 29px;
     margin: 0 0 26px 0;
     max-width: 484px;
-   /* min-height: 145px;*/
-  
-    
 }
 
 .place__text:last-of-type {
@@ -18,7 +15,6 @@
 @media screen and (max-width: 1152px) {
     .place__text {
         max-width: 456px;
-        /*min-height: 174px; */
     }
     
 }
@@ -26,7 +22,6 @@
 @media screen and (max-width: 896px) {
     .place__text {
         max-width: 352px;
-        /*min-height: 182px;*/
         font-size: 16px;
         line-height: 26px;
     }
@@ -37,9 +32,6 @@
 @media screen and (max-width: 540px) {
     .place__text {
         max-width: 288px;
-        /*min-height: 208px;*/
-        font-size: 16px;
-        line-height: 26px;
     }
     
 }
