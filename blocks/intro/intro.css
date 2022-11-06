@@ -1,30 +1,27 @@
 .intro {
-    max-width: 984px;
-    margin: 0 auto;
-    padding: 0 48px 92px;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 48px 92px;
 }
 
-@media screen and  (max-width: 1152px) {
+@media screen and  (max-width: 1279px) {
     .intro {
-        max-width: 690px;
-        margin: 0;
-    }
-    
+        max-width: 928px;
+        /*по макету от 1024 до 1280 отступ сохранятся 92px, меняется только на 768 до 1024 на 88рх, а у 1024 уже отступ 92рх*/
+    }   
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 1023px) {
     .intro {
      padding: 0 24px 88px;
      max-width: 720px;
-    }
-    
+    }  
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 767px) {
     .intro {
         max-width: 288px;
         padding: 0 16px 64px;
-    }
-    
+        /*по макету отступ 64*/
+    }   
 }
-
